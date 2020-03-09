@@ -13,7 +13,6 @@ const codes = [
 
 
 function init() {
-  // has to match the length of codes to alert
   let index = 0;
 
   document.body.addEventListener("keydown", (event) => {
