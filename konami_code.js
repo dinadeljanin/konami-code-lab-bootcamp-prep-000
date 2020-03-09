@@ -20,12 +20,10 @@ function init() {
     if (event.key === codes[index]) {
       ++index;
       console.log(index);
-    } else {
-      index = 0;
     }
     if (index === codes.length-1) {
       alert("What do you think you're doing!? STOP FOOLIN' AROUND KID!");
       index = 0;
-    } 
+    }  
   });
 }
