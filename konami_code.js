@@ -24,6 +24,8 @@ function init() {
     if (index === codes.length-1) {
       alert("What do you think you're doing!? STOP FOOLIN' AROUND KID!");
       index = 0;
-    }  
+    }  else {
+      index = 0;
+    }
   });
 }
